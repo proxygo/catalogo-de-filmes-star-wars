@@ -1,0 +1,123 @@
+body {
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  padding: 4px 16px;
+  font-size: 22px;
+  background-color: #4c0f8a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: 'Special Elite', cursive;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Special Elite', cursive;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Estilos para desktop */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(83, 70, 115);
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.filme {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.filme img {
+  max-width: 50%;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.sinopse {
+  flex-grow: 1;
+}
+
+.sinopse h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sinopse p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background-color: rgb(83, 70, 115);
+  color: #fff;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  .main {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .filme {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .filme img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .sinopse h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .sinopse p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  a {
+    font-size: 16px;
+  }
+}
